@@ -52,6 +52,9 @@
     <BundleAssemblies>False</BundleAssemblies>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Mindscape.Raygun4Net.Xamarin.Android">
+      <HintPath>.\Mindscape.Raygun4Net.Xamarin.Android.dll</HintPath>
+    </Reference>
     <Reference Include="Mono.Android" />
     <Reference Include="mscorlib" />
     <Reference Include="System" />
