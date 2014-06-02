@@ -14,21 +14,21 @@ namespace TestAndroid
     {
         int count = 1;
 
-        protected override void OnCreate(Bundle bundle)
-        {
-            base.OnCreate(bundle);
+        //protected override void OnCreate(Bundle bundle)
+        //{
+        //    base.OnCreate(bundle);
 
-            Toast.MakeText(this, "Activity on create", ToastLength.Long).Show();
+        //    Toast.MakeText(this, "Activity on create", ToastLength.Long).Show();
 
-            // Set our view from the "main" layout resource
-            //SetContentView(Resource.Layout.Main);
+        //    // Set our view from the "main" layout resource
+        //    //SetContentView(Resource.Layout.Main);
 
-            // Get our button from the layout resource,
-            // and attach an event to it
-            //Button button = FindViewById<Button>(Resource.Id.MyButton);
+        //    // Get our button from the layout resource,
+        //    // and attach an event to it
+        //    //Button button = FindViewById<Button>(Resource.Id.MyButton);
 
-            //button.Click += delegate { button.Text = string.Format("{0} clicks!", count++); };
-        }
+        //    //button.Click += delegate { button.Text = string.Format("{0} clicks!", count++); };
+        //}
     }
 }
 
