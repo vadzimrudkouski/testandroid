@@ -18,10 +18,10 @@ namespace TestAndroid
         {
             base.OnCreate(bundle);
 
-            Toast.MakeText(this, "Activity on create", ToastLength.Long);
+            Toast.MakeText(this, "Activity on create", ToastLength.Long).Show();
 
             // Set our view from the "main" layout resource
-            SetContentView(Resource.Layout.Main);
+            //SetContentView(Resource.Layout.Main);
 
             // Get our button from the layout resource,
             // and attach an event to it
