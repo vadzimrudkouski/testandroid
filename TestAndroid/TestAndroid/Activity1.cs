@@ -18,6 +18,8 @@ namespace TestAndroid
         {
             base.OnCreate(bundle);
 
+            Toast.MakeText(this, "Activity on create", ToastLength.Long);
+
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
