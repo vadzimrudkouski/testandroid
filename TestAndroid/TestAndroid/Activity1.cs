@@ -17,7 +17,6 @@ namespace TestAndroid
 
         protected override void OnCreate(Bundle bundle)
         {
-            RaygunClient.Attach("JNZwtZ68Y1BhfA0JWtJBUw==");
             base.OnCreate(bundle);
 
             Toast.MakeText(this, "Activity on create", ToastLength.Long).Show();
