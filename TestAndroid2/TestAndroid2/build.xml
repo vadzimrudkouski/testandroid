@@ -1,0 +1,9 @@
+<project name="Test" default="Login" basedir=".">
+<property name="PathAndroidApp" location="/Users/aram-hed/.jenkins/workspace/TestAndroid2/TestAndroid2/TestAndroid2"/>
+<target name="Login1">
+<exec dir="./" executable="cmd">
+<arg line="/Users/aram-hed/.jenkins/workspace/TestAndroid2/TestAndroid2/TestAndroid2 calabash-android run ${PathAndroidApp} -p android features/my_first.feature --format json -o cucumber.json --tags @LoginApp"/>
+</exec>
+</target>
+</project>
+
